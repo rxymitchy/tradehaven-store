@@ -1,69 +1,111 @@
-# Welcome to your Lovable project
+# 🛍️ TradeHaven Store – Modern E-commerce Frontend
 
-## Project info
+**TradeHaven Store** is a modern e-commerce frontend built using **Vite**, **React**, **Tailwind CSS**, and **shadcn/ui**. The project serves as the UI layer for an online retail store, designed with performance, responsiveness, and scalability in mind.
 
-**URL**: https://lovable.dev/projects/14415306-8b0e-43c2-b675-8db9fa78d001
+---
 
-## How can I edit this code?
+## 🌟 Project Highlights
 
-There are several ways of editing your application.
+* 🖼️ Beautiful, responsive design with **shadcn/ui** components
+* ⚡ Fast builds and instant reloads powered by **Vite**
+* 🎨 Styled using **Tailwind CSS** for a utility-first workflow
+* 🔧 Built in **JavaScript** (originally TypeScript) for broader compatibility
+* 🧱 Ready to integrate with any backend or commerce API
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/14415306-8b0e-43c2-b675-8db9fa78d001) and start prompting.
+## 🛠️ Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+| Tool          | Description                                |
+| ------------- | ------------------------------------------ |
+| **Vite**      | Fast build tool for modern web projects    |
+| **React**     | JavaScript library for building UIs        |
+| **Tailwind**  | Utility-first CSS framework                |
+| **shadcn/ui** | Styled component library based on Radix UI |
+| **Bun**       | Used for dependency locking and dev tools  |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🔧 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 🧑‍💻 Local Development
 
-Follow these steps:
+1. **Clone the repository**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+git clone https://github.com/rxymitchy/tradehaven-store.git
+cd tradehaven-store
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. **Install dependencies**
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. **Start the development server**
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+> The app will be available at `http://localhost:5173` by default.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 🧑‍🎨 Project Structure
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+tradehaven-store/
+├── public/                # Static files
+├── src/
+│   ├── components/        # Reusable UI components
+│   ├── pages/             # Main page views
+│   ├── App.jsx            # Main application file
+│   └── main.jsx           # Entry point
+├── tailwind.config.ts     # Tailwind CSS config
+├── vite.config.js         # Vite config
+├── package.json
+└── README.md
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with .
+## 🌐 Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+You can deploy this project using:
 
-## How can I deploy this project?
+* **[Lovable](https://lovable.dev/)** (native support for live editing & publishing)
+* **Netlify / Vercel** (for custom domains and production deployments)
 
-Simply open [Lovable](https://lovable.dev/projects/14415306-8b0e-43c2-b675-8db9fa78d001) and click on Share -> Publish.
+To deploy with Netlify:
 
-## I want to use a custom domain - is that possible?
+```bash
+# Step 1: Build the project
+npm run build
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+# Step 2: Deploy the contents of the 'dist' folder
+```
+
+---
+
+## ✨ Features in Progress
+
+* 🛒 Product listing and filtering
+* 📦 Cart and checkout components
+* 🔐 Auth integration for customer login
+* 📱 Mobile-first optimizations
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by [@rxymitchy](https://github.com/rxymitchy)
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
